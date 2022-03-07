@@ -106,8 +106,8 @@
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>Supermarket Employee | Stock Clerk | Albert Heijn Veghel</h4>
                   <h5>February - June 2016</h5>
-					<ul>
-						<li>Enjoyed working here as a stock clerk until I turned 16 years old and could work at Claassen Uitvaartzorg.</li> 
+					<ul class="biography-details list-unstyled">
+						<li> Enjoyed working here as a stock clerk until I turned 16 years old and could work at Claassen Uitvaartzorg.</li> 
 					</ul>
 					
                   <!-- This entry doesn't have a list of achievements, but you can copy-paste the one from above -->
@@ -119,8 +119,10 @@
 
           <!-- We're done with jobs, let's move on to schools -->
 
+			
           <section class="my-3 biography-section">
-            <h2>Education</h2>
+            <h2> Education</h2>
+			  
             <ul class="biography-list list-unstyled">
 
               <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
@@ -164,8 +166,65 @@
           We're done with the first column.
           We now move on to the column with contact details, languages and other skills
           <aside> is also a semantic element.
-        -->      </div>
-    </div>
+        -->     
+		  <aside class="col-md-5 col-lg-4 col-xl-3 resume-aside">
+
+          <!-- The first block will be contact details -->
+          <section class="my-3 aside-section">
+            <h2>Contact</h2>
+            <!--
+              A list of all your contact details.
+              There are more icons in the images/icons folder, have a look if you want to add your LinkedIn or TikTok profile.
+              Be careful and only put channels through which you really want to be contacted.
+              If your phone number is your personal one, you may want to remove it!
+            -->
+            <ul class="contact-list list-unstyled">
+              <li class="contact-item">
+                <a class="d-flex align-items-center" href="mailto:203466@buas.nl" target="_blank">
+                  <img class="contact-icon" src="images/icons/envelope.svg" alt="Email">
+                203466@buas.nl
+              </a>
+              </li>
+              <li class="contact-item">
+                <a class="d-flex align-items-center" href="https://www.instagram.com/jiptissink/" target="_blank">
+                  <img class="contact-icon" src="images/icons/instagram.svg" alt="Instagram">
+                  Instagram profile
+                </a>
+              </li>
+              <li class="contact-item">
+                <a class="d-flex align-items-center" href="tel:+31637406080" target="_blank">
+                  <img class="contact-icon" src="images/icons/phone.svg" alt="Mobile Phone">
+                +31 6 37406080
+              </a>
+              </li>
+            </ul>
+          </section>
+
+          <!-- End of contact details, moving on to languages -->
+
+          <section class="my-3 aside-section">
+            <h2>Languages</h2>
+            <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
+            <ul class="language-list list-unstyled">
+              <li class="language-item d-flex mb-1">
+                <h5 class="language-name w-50">Dutch</h5>
+                <div class="language-level w-50 border border-info border-2 position-relative">
+                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
+                  <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
+                </div>
+              </li>
+              <li class="language-item d-flex mb-1">
+                <h5 class="language-name w-50">English</h5>
+                <div class="language-level w-50 border border-info border-2 position-relative">
+                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
+                  <div class="language-progress position-absolute bg-warning h-100 w-75"></div>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
+                </div>
+				</li>
+            </ul>
+          </section>
+		  </aside>
 
     <!-- And now, a footer! -->
     <footer class="bg-dark mt-sm-5 py-4 text-light">

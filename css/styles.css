@@ -1,20 +1,29 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Smooch+Sans:wght@300;400;500&display=swap');
 
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Smooch Sans', sans-serif; 
 	color: #202030;
 	background-color: #f8f8fc;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
+.fw-bolder {
+	font-family: 'League Gothic', sans-serif;
+	
+}
+
+h2 {
+	font-family: 'League Gothic', sans-serif;
+}
+
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #6B7869;
 }
 
 .resume-main {
@@ -22,10 +31,14 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #909884;
 }
 
 /* Styles for lists in the document */
+
+.language-progress {
+	background-color: #A0BFA8
+}
 
 .biography-details li::before, .skill-list li::before {
 	content: ">";
