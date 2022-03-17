@@ -12,11 +12,7 @@ body {
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
-
-.fw-bolder {
-	font-family: 'League Gothic', sans-serif;
 	
-}
 
 h2 {
 	font-family: 'League Gothic', sans-serif;
@@ -36,8 +32,8 @@ h2 {
 
 /* Styles for lists in the document */
 
-.language-progress {
-	background-color: #A0BFA8
+.language-process {
+	background-color: aliceblue
 }
 
 .biography-details li::before, .skill-list li::before {
@@ -61,4 +57,9 @@ h2 {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.titles {
+	font-family: 'League Gothic', sans-serif;
+	color: beige
 }
